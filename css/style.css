@@ -84,6 +84,7 @@ header {
 	border-bottom: 1px solid var(--base-bk);
 }
 #gallery img {
+	display: block;
 	position: absolute;
 	transform: translateX(100%);
 	width: 100%;
