@@ -90,6 +90,7 @@ header {
 	width: 100%;
 	height: inherit;
 	object-fit: cover;
+	object-position: bottom;
 }
 
 #gallery img:nth-of-type(1) {
