@@ -1,0 +1,92 @@
+{
+	"treatments": [
+		{
+			"name": "Lomi treatments",
+			"price": {
+				"60min": "",
+				"90min": "",
+				"240min": 3000
+			}
+		},
+		{
+			"name": "Lomi-Lomi Massage",
+			"price": {
+				"60min": 1500,
+				"90min": 2000,
+				"120min": 2500
+			}
+		},
+		{
+			"name": "Traditional Filipino Hilot",
+			"price": {
+				"60min": 1200,
+				"90min": 1800,
+				"120min": 2400
+			}
+		},
+		{
+			"name": "Stone Massage",
+			"price": {
+				"60min": 1000,
+				"90min": 1400,
+				"120min": 2000
+			}
+		},
+		{
+			"name": "Herbal Massage",
+			"price": {
+				"60min": 1000,
+				"90min": 1400,
+				"120min": 2000
+			}
+		},
+		{
+			"name": "Aloevera Massage",
+			"price": {
+				"60min": 900,
+				"90min": 1200,
+				"120min": 1800
+			}
+		},
+		{
+			"name": "Coconut Massage",
+			"price": {
+				"60min": 900,
+				"90min": 1200,
+				"120min": 1800
+			}
+		},
+		{
+			"name": "Body Scrub Massage",
+			"price": {
+				"60min": 800,
+				"90min": 1100,
+				"120min": 1600
+			}
+		},
+		{
+			"name": "Oil Massage",
+			"price": {
+				"60min": 800,
+				"90min": 1100,
+				"120min": 1600
+			}
+		},
+		{
+			"name": "Dry Massage",
+			"price": {
+				"60min": 700,
+				"90min": 10000,
+				"120min": 1400
+			}
+		},
+		{
+			"name": "Foot Massage",
+			"price": {
+				"60min": 600,
+				"90min": 900,
+				"120min": 1200
+			}
+		}
+	]
+}
