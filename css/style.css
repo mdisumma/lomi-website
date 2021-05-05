@@ -25,12 +25,24 @@ header {
 	background-color: var(--base-bk);
 	color: rgb(255, 255, 255);
 }
+.nav-logo {
+	display: flex;
+	justify-content: space-between;
+}
 .nav-logo img {
 	padding: 0.5em;
 	width: 150px;
 }
+.nav-logo button {
+	background-color: transparent;
+	border: 0;
+	color: white;
+	font-size: 1.2em;
+	padding: 0.5em;
+	width: 50px;
+}
 .nav-link ul {
-	display: none;
+	/* display: none; */
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -38,7 +50,7 @@ header {
 }
 .nav-link ul li a {
 	text-decoration: none;
-	padding: 1em;
+	padding: 0.5em;
 	display: block;
 	color: white;
 }
@@ -263,7 +275,12 @@ footer ul li a {
 		align-items: center;
 		justify-content: space-between;
 	}
-
+	.nav-logo {
+		display: block;
+	}
+	.nav-logo button {
+		display: none;
+	}
 	.nav-link ul {
 		display: flex;
 		justify-content: flex-end;
@@ -288,10 +305,4 @@ footer ul li a {
 	#gallery {
 		height: 60vh;
 	}
-}
-@media only screen and (min-width: 900px) {
-	/* header */
-	/* .header h1 {
-		font-size: 80px;
-	} */
 }
