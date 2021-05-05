@@ -71,7 +71,7 @@ header {
 
 #gallery {
 	margin: 0 auto;
-	max-width: var(--max-width);
+	max-width: 960px;
 	height: 600px;
 	position: relative;
 	overflow: hidden;
