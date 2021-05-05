@@ -37,12 +37,11 @@ header {
 	background-color: transparent;
 	border: 0;
 	color: white;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	padding: 0.5em;
 	width: 50px;
 }
 .nav-link ul {
-	display: none;
 	padding: 0;
 	margin: 0;
 	list-style: none;
