@@ -37,7 +37,8 @@ header {
 	font-size: 1.5em;
 }
 .nav-toggle {
-	display: flex;
+	position: absolute;
+	/* display: flex; */
 	justify-content: center;
 	width: 100%;
 	padding-top: 0.5em;
