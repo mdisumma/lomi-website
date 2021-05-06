@@ -22,11 +22,11 @@ header {
 	z-index: 100;
 }
 
-.nav-container {
+/* .nav-container {
 	margin: 0;
 	padding: 0;
 	color: rgb(255, 255, 255);
-}
+} */
 .nav-icon {
 	background-color: var(--base-bk);
 	display: flex;
@@ -34,7 +34,7 @@ header {
 }
 .nav-icon img {
 	padding: 0.5em;
-	width: 150px;
+	width: 50px;
 }
 .nav-icon button {
 	border: 0;
