@@ -22,15 +22,15 @@ header {
 	top: 0px;
 	z-index: 10;
 }
-/* .nav-icon {
+.nav-icon {
 	background-color: var(--base-bk);
 	display: flex;
 	justify-content: space-between;
 }
-.nav-icon img {
+/* .nav-icon img {
 	padding: 0.5em;
 	width: 150px;
-} */
+}  */
 .nav-icon button {
 	border: 0;
 	background-color: transparent;
