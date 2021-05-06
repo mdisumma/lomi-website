@@ -22,7 +22,7 @@ header {
 	top: 0px;
 	z-index: 10;
 }
-/* .nav-icon {
+.nav-icon {
 	background-color: var(--base-bk);
 	display: flex;
 	justify-content: space-between;
@@ -37,7 +37,7 @@ header {
 	color: white;
 	font-size: 1.5em;
 }
-.nav-toggle {
+/*.nav-toggle {
 	width: 100%;
 	padding-top: 0.5em;
 	background-color: var(--base-bk);
