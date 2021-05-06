@@ -19,14 +19,8 @@ header {
 	width: 100%;
 	position: sticky;
 	top: 0px;
-	z-index: 100;
+	z-index: 10;
 }
-
-/* .nav-container {
-	margin: 0;
-	padding: 0;
-	color: rgb(255, 255, 255);
-} */
 .nav-icon {
 	background-color: var(--base-bk);
 	display: flex;
@@ -34,7 +28,7 @@ header {
 }
 .nav-icon img {
 	padding: 0.5em;
-	width: 50px;
+	width: 150px;
 }
 .nav-icon button {
 	border: 0;
@@ -282,7 +276,7 @@ footer ul li a {
 
 @media only screen and (min-width: 420px) {
 	/* navigation */
-	.nav-container {
+	header {
 		display: flex;
 	}
 
@@ -294,17 +288,6 @@ footer ul li a {
 		justify-content: flex-end;
 	}
 	.nav-toggle ul {
-		display: flex;
-		justify-content: flex-end;
-	}
-	.nav-toggle {
-		display: block;
-		flex-direction: row;
-		justify-content: flex-end;
-	}
-	.nav-toggle ul li {
-		width: auto;
-		border-bottom: 0;
 		display: flex;
 		justify-content: flex-end;
 	}
