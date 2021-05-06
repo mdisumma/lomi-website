@@ -37,9 +37,6 @@ header {
 	font-size: 1.5em;
 }
 .nav-toggle {
-	position: absolute;
-	/* display: flex; */
-	justify-content: center;
 	width: 100%;
 	padding-top: 0.5em;
 	background-color: var(--base-bk);
@@ -285,8 +282,8 @@ footer ul li a {
 		display: none;
 	}
 	.nav-toggle {
-		display: flex;
-		justify-content: flex-end;
+		position: relative;
+		transform: translateY(0px);
 	}
 	.nav-toggle ul {
 		display: flex;
