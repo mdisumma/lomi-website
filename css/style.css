@@ -15,11 +15,12 @@ body {
 
 /* navigation bar */
 header {
-	height: 100%;
+	height: auto;
 	width: 100%;
 	position: sticky;
 	top: 0px;
 	z-index: 100;
+	overflow: hidden;
 }
 
 .nav-container {
