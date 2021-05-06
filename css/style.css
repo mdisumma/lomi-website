@@ -47,7 +47,7 @@ header {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	padding: 0.5em 0;
+	padding-top: 0.5em;
 	background-color: var(--base-bk);
 	text-align: center;
 	/* transform: translateY(-150px); */
@@ -302,7 +302,6 @@ footer ul li a {
 		display: block;
 		flex-direction: row;
 		justify-content: flex-end;
-		align-items: center;
 	}
 	.nav-toggle ul li {
 		width: auto;
