@@ -45,6 +45,8 @@ header {
 	padding: 0.5em;
 }
 .nav-toggle {
+	display: flex;
+	justify-content: center;
 	width: 100%;
 	background-color: var(--base-bk);
 	text-align: center;
@@ -58,7 +60,6 @@ header {
 
 .nav-toggle ul li {
 	width: 100%;
-	border-bottom: 1px solid white;
 }
 
 .nav-toggle ul li a {
