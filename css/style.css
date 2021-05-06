@@ -15,7 +15,7 @@ body {
 
 /* navigation bar */
 header {
-	background-color: var(--base-bk);
+	/* background-color: var(--base-bk); */
 	height: auto;
 	width: 100%;
 	position: sticky;
