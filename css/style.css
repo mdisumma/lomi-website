@@ -44,7 +44,7 @@ header {
 .nav-toggle {
 	position: absolute;
 	width: 100%;
-	background-color: var(--base-bk);
+	background-color: rgba(0, 120, 50, 0.8);
 	text-align: center;
 }
 
