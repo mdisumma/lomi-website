@@ -16,6 +16,7 @@ body {
 /* navigation bar */
 header {
 	height: 100%;
+	width: 100%;
 	position: sticky;
 	top: 0px;
 	z-index: 100;
@@ -25,34 +26,48 @@ header {
 	background-color: var(--base-bk);
 	color: rgb(255, 255, 255);
 }
-.nav-logo {
+.nav-icon {
 	display: flex;
 	justify-content: space-between;
 }
-.nav-logo img {
+.nav-icon img {
 	padding: 0.5em;
 	width: 150px;
 }
-.nav-logo button {
-	background-color: transparent;
+.nav-icon button {
 	border: 0;
+	background-color: transparent;
 	color: white;
 	font-size: 1.5em;
 	padding: 0.5em;
-	width: 50px;
 }
-.nav-link ul {
+.nav-toggle {
+	width: 100%;
+	background-color: var(--base-bk);
+	text-align: center;
+}
+
+.nav-toggle ul {
+	position: relative;
+	top: 100%;
 	padding: 0;
 	margin: 0;
 	list-style: none;
-	text-align: center;
 }
-.nav-link ul li a {
+
+.nav-toggle ul li {
+	width: 100%;
+	border-bottom: 1px solid white;
+}
+
+.nav-toggle ul li a {
 	text-decoration: none;
 	padding: 0.5em;
 	display: block;
 	color: white;
 }
+
+/* head */
 .head {
 	margin: 2em auto;
 	width: 100%;
@@ -280,16 +295,20 @@ footer ul li a {
 	.nav-logo button {
 		display: none;
 	}
-	.nav-link ul {
+	.nav-toggle ul {
 		display: flex;
 		justify-content: flex-end;
 	}
-	.nav-link ul li a {
+	.nav-toggle {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.nav-toggle ul li a {
 		text-decoration: none;
-
 		display: block;
 		color: white;
 	}
+
 	/* header */
 	.head {
 		margin: 3em auto;
