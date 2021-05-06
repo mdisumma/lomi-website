@@ -1,7 +1,7 @@
 /* document global */
 :root {
 	--text: rgb(0, 100, 50);
-	--base-bk: rgb(0, 120, 50);
+	--base-bk: rgba(0, 120, 50, 0.8);
 	--max-width: 960px;
 	--h2: 2em;
 }
@@ -15,7 +15,6 @@ body {
 
 /* navigation bar */
 header {
-	/* background-color: var(--base-bk); */
 	height: auto;
 	width: 100%;
 	position: sticky;
@@ -44,7 +43,7 @@ header {
 .nav-toggle {
 	position: absolute;
 	width: 100%;
-	background-color: rgba(0, 120, 50, 0.8);
+	background-color: var(--base-bk);
 	text-align: center;
 }
 
