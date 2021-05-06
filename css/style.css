@@ -27,10 +27,10 @@ header {
 	display: flex;
 	justify-content: space-between;
 }
-/* .nav-icon img {
+.nav-icon img {
 	padding: 0.5em;
-	width: 150px;
-}  */
+	height: 1.5em;
+}
 .nav-icon button {
 	border: 0;
 	background-color: transparent;
