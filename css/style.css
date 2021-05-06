@@ -48,8 +48,6 @@ header {
 }
 
 .nav-toggle ul {
-	position: relative;
-	top: 100%;
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -289,10 +287,8 @@ footer ul li a {
 		align-items: center;
 		justify-content: space-between;
 	}
-	.nav-logo {
-		display: block;
-	}
-	.nav-logo button {
+
+	.nav-icon button {
 		display: none;
 	}
 	.nav-toggle ul {
@@ -300,6 +296,13 @@ footer ul li a {
 		justify-content: flex-end;
 	}
 	.nav-toggle {
+		display: block;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+	.nav-toggle ul li {
+		width: auto;
+		border-bottom: 0;
 		display: flex;
 		justify-content: flex-end;
 	}
