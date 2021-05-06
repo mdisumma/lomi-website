@@ -4,9 +4,10 @@ const navButton = document.querySelector(".nav-button");
 
 navButton.addEventListener("click", (e) => {
 	console.log(e);
-	if (navToggle.style.transform === "translateY(-150px)") {
+	if (navToggle.style.transform === "translateY(-150%)") {
 		navToggle.style.transform = "translateY(0px)";
 	} else {
-		navToggle.style.transform = "translateY(-150px)";
+		navToggle.style.transform = "translateY(-150%)";
+		navToggle.style.zIndex = "0";
 	}
 });
