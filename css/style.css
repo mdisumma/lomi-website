@@ -1,7 +1,7 @@
 /* document global */
 :root {
 	--text: rgb(0, 100, 50);
-	--base-bk: rgba(0, 120, 50, 0.8);
+	--base-bk: rgba(0, 120, 50, 0.85);
 	--max-width: 960px;
 	--h2: 2em;
 }
@@ -17,56 +17,50 @@ body {
 header {
 	height: auto;
 	width: 100%;
-	position: sticky;
+	position: fixed;
 	top: 0px;
 	z-index: 10;
 }
-.navigation {
+nav {
 	width: 100%;
-}
-.nav-icon {
 	background-color: var(--base-bk);
-	display: flex;
-	justify-content: space-between;
+	position: relative;
 }
-.nav-icon img {
+nav img {
+	padding: 0.5em;
 	height: 2em;
-	padding: 0.5em;
 }
-.nav-icon button {
+button {
 	border: 0;
-	background-color: transparent;
 	color: white;
-	font-size: 1.5em;
-	padding: 0.5em;
-}
-.nav-toggle {
+	background-color: transparent;
 	position: absolute;
+	top: 0.5em;
+	right: 0.5em;
+	font-size: 1.5em;
+}
+ul {
+	display: none;
+	box-sizing: border-box;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.toggle {
+	display: block;
+}
+li {
 	width: 100%;
-	background-color: var(--base-bk);
+	padding: 0.5em;
 	text-align: center;
 }
-
-.nav-toggle ul {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-}
-
-.nav-toggle ul li a {
+a {
 	text-decoration: none;
-	padding: 1em;
-	display: block;
 	color: white;
 }
-.nav-toggle ul li a:hover {
-	text-decoration: underline;
-	color: white;
-}
-
 /* home */
 #home {
-	margin: 2em auto;
+	margin: 4em auto;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -277,29 +271,21 @@ footer ul li a {
 
 @media only screen and (min-width: 420px) {
 	/* navigation */
-	header {
-		background-color: var(--base-bk);
-	}
-	.navigation {
-		display: flex;
-		width: 100%;
-		align-items: center;
-	}
-	.nav-icon button {
+	button {
 		display: none;
 	}
-	.nav-toggle {
-		position: relative;
-		transform: translateY(0px);
-	}
-	.nav-toggle ul {
+	nav {
 		display: flex;
-		justify-content: flex-end;
+		justify-content: space-between;
+		align-items: center;
 	}
-	.nav-toggle ul li a {
-		text-decoration: none;
-		display: block;
-		color: white;
+	.toggle {
+		list-style: none;
+		padding: 0;
+		display: flex;
+	}
+	li {
+		width: fit-content;
 	}
 
 	/* header */
