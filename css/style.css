@@ -3,7 +3,9 @@
 	--text: rgb(0, 100, 50);
 	--base-bk: rgba(0, 120, 50, 0.85);
 	--max-width: 960px;
-	--h2: 2em;
+	--h1: 36px;
+	--h2: 24px;
+	--caption: 18px;
 }
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -15,11 +17,10 @@ body {
 
 /* navigation bar */
 header {
-	height: auto;
 	width: 100%;
 	position: sticky;
 	top: 0px;
-	z-index: 10;
+	z-index: 1;
 }
 nav {
 	width: 100%;
@@ -41,7 +42,6 @@ button {
 }
 ul {
 	display: none;
-	box-sizing: border-box;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -50,17 +50,20 @@ ul {
 	display: block;
 }
 li {
-	width: 100%;
-	padding: 0.5em;
 	text-align: center;
 }
-a {
+li a {
+	display: block;
 	text-decoration: none;
+	padding: 0.5em;
 	color: white;
+}
+li a:hover {
+	text-decoration: underline;
 }
 /* home */
 #home {
-	margin: 4em auto;
+	margin: 3em auto;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -69,7 +72,7 @@ a {
 #home h1 {
 	margin: 0;
 	text-transform: uppercase;
-	font-size: 45px;
+	font-size: var(--h1);
 	font-weight: 100;
 	/* border-bottom: 1px solid var(--base-bk); */
 }
@@ -162,7 +165,7 @@ a {
 	max-width: var(--max-width);
 }
 #treatments table caption {
-	font-size: 1.5em;
+	font-size: var(--caption);
 	margin: 1em;
 }
 #treatments h2 {
