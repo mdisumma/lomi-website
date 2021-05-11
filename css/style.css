@@ -92,7 +92,7 @@ li a:hover {
 	max-width: var(--max-width);
 	height: 400px;
 	/* position: relative; */
-	/* overflow: hidden; */
+	overflow: hidden;
 	padding-top: var(--padding);
 }
 #gallery h2 {
