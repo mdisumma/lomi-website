@@ -127,19 +127,19 @@ li a:hover {
 }
 
 #slide img {
-	display: block;
+	display: flex;
+	flex-wrap: nowrap;
 	width: 100%;
 	height: auto;
 	object-fit: cover;
 }
 
 .active {
+	display: block;
 	position: absolute;
 	bottom: 0%;
 	left: 0;
 	/* z-index: 9; */
-
-	/* display: block; */
 }
 
 /* #gallery img {
