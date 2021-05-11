@@ -92,8 +92,8 @@ li a:hover {
 	margin: 0 auto;
 	max-width: var(--max-width);
 	padding-top: var(--padding);
-	position: relative;
 	overflow: hidden;
+	position: relative;
 }
 #gallery h2 {
 	text-transform: uppercase;
@@ -102,9 +102,28 @@ li a:hover {
 	font-weight: 100;
 	border-bottom: 1px solid var(--base-bk);
 }
+#buttonLeft,
+#buttonRight {
+	border: 0;
+	background-color: transparent;
+	color: rgba(255, 255, 255, 0.9);
+	position: absolute;
+	top: 50%;
+	font-size: 2em;
+	z-index: 10;
+}
+#buttonLeft {
+	top: 50%;
+	left: 0;
+}
+#buttonRight {
+	top: 50%;
+	right: 0;
+}
 
 #slide {
 	display: flex;
+	height: 100%;
 	position: relative;
 }
 
@@ -119,27 +138,9 @@ li a:hover {
 	position: absolute;
 	top: 0%;
 	left: 0;
-	z-index: 9;
+	/* z-index: 9; */
 
 	/* display: block; */
-}
-
-#buttonLeft,
-#buttonRight {
-	border: 0;
-	background-color: transparent;
-	color: rgba(255, 255, 255, 0.9);
-	position: absolute;
-	font-size: 2em;
-	z-index: 10;
-}
-#buttonLeft {
-	left: 0;
-	top: 70%;
-}
-#buttonRight {
-	right: 0;
-	top: 70%;
 }
 
 /* #gallery img {
