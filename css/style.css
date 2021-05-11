@@ -90,7 +90,6 @@ li a:hover {
 #gallery {
 	margin: 0 auto;
 	max-width: var(--max-width);
-	height: 400px;
 	/* position: relative; */
 	overflow: hidden;
 	padding-top: var(--padding);
@@ -113,7 +112,7 @@ li a:hover {
 }
 
 #slide img {
-	/* display: none; */
+	position: relative;
 	width: 100%;
 	height: auto;
 	object-fit: cover;
@@ -354,7 +353,7 @@ footer ul li a {
 		width: 200px;
 	}
 	/* gallery */
-	#gallery {
+	/* #gallery {
 		height: 60vh;
-	}
+	} */
 }
