@@ -124,6 +124,7 @@ li a:hover {
 #slide {
 	display: flex;
 	height: 100%;
+	overflow: hidden;
 }
 
 #slide img {
@@ -135,7 +136,6 @@ li a:hover {
 }
 
 .active {
-	display: block;
 	position: absolute;
 	bottom: 0%;
 	left: 0;
