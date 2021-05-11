@@ -110,7 +110,6 @@ li a:hover {
 }
 #slide {
 	display: flex;
-	flex-wrap: nowrap;
 }
 
 #slide img {
