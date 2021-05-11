@@ -131,15 +131,13 @@ li a:hover {
 	display: flex;
 	flex-wrap: nowrap;
 	width: 100%;
-	height: auto;
-	object-fit: cover;
 }
 
-.active {
-	/* bottom: 0%;
-	left: 0; */
-	/* z-index: 9; */
-}
+/* .active {
+	bottom: 0%;
+	left: 0;
+	z-index: 9;
+} */
 
 /* #gallery img {
 	display: block;
