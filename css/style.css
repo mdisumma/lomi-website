@@ -21,7 +21,7 @@ header {
 	width: 100%;
 	position: sticky;
 	top: 0px;
-	z-index: 1;
+	z-index: 20;
 }
 nav {
 	width: 100%;
@@ -32,7 +32,7 @@ nav img {
 	padding: 0.5em;
 	height: 2em;
 }
-button {
+.buttonToggle {
 	border: 0;
 	color: white;
 	background-color: transparent;
@@ -87,13 +87,12 @@ li a:hover {
 }
 
 /* gallery */
-
 #gallery {
 	margin: 0 auto;
 	max-width: var(--max-width);
 	height: 400px;
-	position: relative;
-	overflow: hidden;
+	/* position: relative; */
+	/* overflow: hidden; */
 	padding-top: var(--padding);
 }
 #gallery h2 {
@@ -103,15 +102,60 @@ li a:hover {
 	font-weight: 100;
 	border-bottom: 1px solid var(--base-bk);
 }
-#gallery img {
+#interactive {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	/* padding-top: var(--padding); */
+}
+#slide {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#slide img {
+	/* display: none; */
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.active {
+	position: absolute;
+	top: 0%;
+	left: 0;
+	z-index: 9;
+
+	/* display: block; */
+}
+
+#buttonLeft,
+#buttonRight {
+	border: 0;
+	background-color: transparent;
+	color: rgba(255, 255, 255, 0.9);
+	position: absolute;
+	font-size: 2em;
+	z-index: 10;
+}
+#buttonLeft {
+	left: 0;
+	top: 50%;
+}
+#buttonRight {
+	right: 0;
+	top: 50%;
+}
+
+/* #gallery img {
 	display: block;
 	position: absolute;
 	transform: translateX(100%);
 	width: 100%;
 	height: auto;
 	object-fit: cover;
-}
-
+} */
+/*
 #gallery img:nth-of-type(1) {
 	animation: loop 100s ease-in infinite;
 }
@@ -159,7 +203,7 @@ li a:hover {
 	100% {
 		transform: translateX(-100%);
 	}
-}
+} */
 
 /* treatments */
 
@@ -283,7 +327,7 @@ footer ul li a {
 
 @media only screen and (min-width: 420px) {
 	/* navigation */
-	button {
+	.buttonToggle {
 		display: none;
 	}
 	nav {

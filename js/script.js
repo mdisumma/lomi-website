@@ -1,4 +1,4 @@
-const button = document.querySelector(".button");
+const button = document.querySelector(".buttonToggle");
 const toggle = document.querySelector(".toggle");
 const media = window.matchMedia("(max-width: 420px)");
 // console.log(button);
