@@ -108,7 +108,7 @@ li a:hover {
 #buttonLeft,
 #buttonRight {
 	border: 0;
-	padding: 0;
+	padding: 0.5em;
 	margin: 0;
 	background-color: transparent;
 	color: rgba(255, 255, 255, 0.9);
