@@ -108,6 +108,7 @@ li a:hover {
 #buttonLeft,
 #buttonRight {
 	border: 0;
+	padding: 0;
 	background-color: transparent;
 	color: rgba(255, 255, 255, 0.9);
 	position: absolute;
@@ -116,11 +117,11 @@ li a:hover {
 	z-index: 10;
 }
 #buttonLeft {
-	top: 60%;
+	top: 50%;
 	left: 0;
 }
 #buttonRight {
-	top: 60%;
+	top: 50%;
 	right: 0;
 }
 
