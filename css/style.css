@@ -135,12 +135,13 @@ li a:hover {
 	object-fit: cover;
 }
 
-/* .active {
+.active {
+	position: absolute;
+	height: 100%;
 	bottom: 0%;
 	left: 0;
 	z-index: 9;
-
-} */
+}
 
 /* #gallery img {
 	display: block;
