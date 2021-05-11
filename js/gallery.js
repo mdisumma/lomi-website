@@ -35,7 +35,7 @@ const imgList = [
 	{ href: "images/ls-11.jpg" },
 ];
 
-const gallery = document.querySelector("#interactive");
+const gallery = document.querySelector("#gallery");
 const slide = document.querySelector("#slide");
 const buttonLeft = document.querySelector("#buttonLeft");
 const buttonRight = document.querySelector("#buttonRight");

@@ -88,11 +88,13 @@ li a:hover {
 
 /* gallery */
 #gallery {
+	width: 100%;
 	margin: 0 auto;
 	max-width: var(--max-width);
-	/* position: relative; */
-	overflow: hidden;
+
 	padding-top: var(--padding);
+
+	overflow: hidden;
 }
 #gallery h2 {
 	text-transform: uppercase;
@@ -101,14 +103,10 @@ li a:hover {
 	font-weight: 100;
 	border-bottom: 1px solid var(--base-bk);
 }
-#interactive {
-	width: 100%;
-	position: relative;
-	overflow: hidden;
-	/* padding-top: var(--padding); */
-}
+
 #slide {
 	display: flex;
+	position: relative;
 }
 
 #slide img {
