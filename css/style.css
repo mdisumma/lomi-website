@@ -1,6 +1,6 @@
 /* document global */
 :root {
-	--text: rgb(0, 100, 50);
+	--text: #006432;
 	--base-bk: rgba(0, 120, 50, 0.85);
 	--max-width: 960px;
 	--h1: 36px;

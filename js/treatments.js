@@ -52,7 +52,7 @@ for (let item of treatments) {
 	treatmentsOutput.innerHTML += `
 	<tr>
 	<td> ${item.name} </td>
-	<td>$</td>
+	<td><img src="images/peso.svg" alt="philippine currency" height="20px";</td>
 	<td> ${item.price[0]} </td>
 	<td> ${item.price[1]} </td>
 	<td> ${item.price[2]} </td>
