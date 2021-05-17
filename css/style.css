@@ -314,20 +314,22 @@ tbody tr {
 	margin: 3em auto;
 	max-width: var(--max-width);
 }
+.social {
+	display: flex;
+	justify-content: center;
+}
 #contacts ul li {
 	padding: 1em;
 }
 #contacts ul li a {
 	font-size: 2em;
 	text-decoration: none;
-	padding: 1em;
-	display: block;
 	color: var(--text);
 }
 
 /* footer */
 
-footer {
+/* footer {
 	background-color: var(--base-bk);
 }
 footer ul {
@@ -342,7 +344,7 @@ footer ul li a {
 	padding: 0.5em 1em;
 	display: block;
 	color: white;
-}
+} */
 
 @media only screen and (min-width: 420px) {
 	/* navigation */
