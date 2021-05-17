@@ -23,6 +23,7 @@ header {
 	top: 0px;
 	z-index: 20;
 }
+
 nav {
 	width: 100%;
 	background-color: var(--base-bk);
@@ -79,6 +80,11 @@ li a:hover {
 	font-weight: 100;
 	/* border-bottom: 1px solid var(--base-bk); */
 }
+#home p {
+	max-width: 400px;
+	font-size: 1.2em;
+	line-height: 2em;
+}
 #home img {
 	width: 140px;
 }
@@ -104,6 +110,13 @@ li a:hover {
 	font-size: var(--h2);
 	font-weight: 100;
 	border-bottom: 1px solid var(--base-bk);
+}
+#gallery p {
+	margin: 0 auto;
+	max-width: var(--max-width);
+	padding: 1em;
+	font-size: 1.2em;
+	line-height: 1.5em;
 }
 #buttonLeft,
 #buttonRight {
@@ -250,7 +263,7 @@ tbody tr {
 	border-bottom: 1px dotted var(--base-bk);
 }
 
-/* social */
+/* social
 
 #social {
 	color: var(--text);
@@ -278,7 +291,7 @@ tbody tr {
 	padding: 1em;
 	display: block;
 	color: var(--text);
-}
+} */
 
 /* contact */
 #contacts {
@@ -303,6 +316,13 @@ tbody tr {
 }
 #contacts ul li {
 	padding: 1em;
+}
+#contacts ul li a {
+	font-size: 2em;
+	text-decoration: none;
+	padding: 1em;
+	display: block;
+	color: var(--text);
 }
 
 /* footer */
