@@ -1,9 +1,5 @@
 const treatments = [
 	{
-		name: "Lomi treatment",
-		price: ["", "", 3000],
-	},
-	{
 		name: "Lomi-Lomi Massage",
 		price: [1500, 2000, 2500],
 	},
