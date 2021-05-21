@@ -307,6 +307,7 @@ tbody tr {
 }
 
 #contacts ul {
+	height: 200px;
 	border: 1px solid var(--base-bk);
 	color: var(--text);
 	text-align: center;
@@ -325,9 +326,16 @@ tbody tr {
 .icon {
 	font-size: 2em;
 }
+.icon:hover {
+	font-size: 2.5em;
+}
 #contacts ul li a {
+	display: inline;
 	text-decoration: none;
 	color: var(--text);
+}
+#contacts ul li a:hover {
+	text-decoration: underline;
 }
 
 /* footer */
