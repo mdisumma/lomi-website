@@ -322,6 +322,9 @@ tbody tr {
 #contacts ul li {
 	padding: 1em;
 }
+.icon {
+	font-size: 2em;
+}
 #contacts ul li a {
 	text-decoration: none;
 	color: var(--text);
