@@ -11,7 +11,6 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	color: var(--text);
-	/* background-color:rgb(0, 150, 50); */
 	min-width: 360px;
 	margin: 0;
 }
@@ -94,9 +93,11 @@ li a:hover {
 }
 
 /* gallery */
+
 #gallery {
 	padding-top: var(--padding);
 }
+
 #container {
 	width: 100%;
 	height: 400px;
@@ -105,6 +106,7 @@ li a:hover {
 	overflow: hidden;
 	position: relative;
 }
+
 #gallery h2 {
 	text-transform: uppercase;
 	text-align: center;
@@ -112,6 +114,7 @@ li a:hover {
 	font-weight: 100;
 	border-bottom: 1px solid var(--base-bk);
 }
+
 #gallery p {
 	margin: 0 auto;
 	max-width: var(--max-width);
@@ -119,6 +122,7 @@ li a:hover {
 	font-size: 1.2em;
 	line-height: 1.5em;
 }
+
 #buttonLeft,
 #buttonRight {
 	border: 0;
@@ -160,76 +164,19 @@ li a:hover {
 	z-index: 9;
 }
 
-/* #gallery img {
-	display: block;
-	position: absolute;
-	transform: translateX(100%);
-	width: 100%;
-	height: auto;
-	object-fit: cover;
-} */
-/*
-#gallery img:nth-of-type(1) {
-	animation: loop 100s ease-in infinite;
-}
-#gallery img:nth-of-type(2) {
-	animation: loop 100s ease-in infinite 10s;
-}
-#gallery img:nth-of-type(3) {
-	animation: loop 100s ease-in infinite 20s;
-}
-#gallery img:nth-of-type(4) {
-	animation: loop 100s ease-in infinite 30s;
-}
-#gallery img:nth-of-type(5) {
-	animation: loop 100s ease-in infinite 40s;
-}
-#gallery img:nth-of-type(6) {
-	animation: loop 100s ease-in infinite 50s;
-}
-#gallery img:nth-of-type(7) {
-	animation: loop 100s ease-in infinite 60s;
-}
-#gallery img:nth-of-type(8) {
-	animation: loop 100s ease-in infinite 70s;
-}
-#gallery img:nth-of-type(9) {
-	animation: loop 100s ease-in infinite 80s;
-}
-#gallery img:nth-of-type(10) {
-	animation: loop 100s ease-in infinite 90s;
-}
-
-@keyframes loop {
-	0% {
-		transform: translateX(100%);
-	}
-	1% {
-		transform: translateX(0%);
-	}
-	10% {
-		transform: translateX(-0%);
-	}
-	11% {
-		transform: translateX(-100%);
-	}
-	100% {
-		transform: translateX(-100%);
-	}
-} */
-
 /* treatments */
-
 #treatments {
 	color: var(--text);
 	margin: 0 auto;
 	max-width: var(--max-width);
 	padding-top: var(--padding);
 }
+
 #treatments table caption {
 	font-size: var(--caption);
 	margin: 1em;
 }
+
 #treatments h2 {
 	text-transform: uppercase;
 	text-align: center;
@@ -237,67 +184,47 @@ li a:hover {
 	font-weight: 100;
 	border-bottom: 1px solid var(--base-bk);
 }
+
 #treatments table {
 	border: 1px solid var(--base-bk);
 	width: 100%;
 	border-collapse: collapse;
 }
+
 thead tr *,
 tbody tr *,
 tfoot tr * {
 	padding: 0.5em;
 }
+
 thead,
 tfoot {
 	color: white;
 	background-color: var(--base-bk);
 }
+
 .price {
 	background-color: rgba(0, 120, 50, 0.2);
 }
+
 thead tr:last-of-type {
 	color: var(--base-bk);
 	text-align: center;
 	background-color: rgba(255, 255, 255, 0.9);
 }
+
 thead tr:last-of-type th {
 	text-align: start;
 }
-
-/* social
-
-#social {
-	color: var(--text);
-	margin: 0 auto;
-	max-width: var(--max-width);
-	padding-top: var(--padding);
-}
-#social h2 {
-	text-transform: uppercase;
-	text-align: center;
-	font-size: var(--h2);
-	font-weight: 100;
-	border-bottom: 1px solid var(--base-bk);
-}
-#social ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: flex;
-	justify-content: center;
-}
-#social ul li a {
-	font-size: 2em;
-	text-decoration: none;
+.description {
 	padding: 1em;
-	display: block;
-	color: var(--text);
-} */
+}
 
 /* contact */
 #contacts {
 	padding-top: var(--padding);
 }
+
 #contacts h2 {
 	text-transform: uppercase;
 	text-align: center;
@@ -317,62 +244,52 @@ thead tr:last-of-type th {
 	margin: 3em auto;
 	max-width: var(--max-width);
 }
+
 .social {
 	display: flex;
 	justify-content: center;
 }
+
 #contacts ul li {
 	padding: 1em;
 }
+
 .icon {
 	font-size: 2em;
 }
+
 .icon:hover {
 	font-size: 2.5em;
 }
+
 #contacts ul li a {
 	display: inline;
 	text-decoration: none;
 	color: var(--text);
 }
+
 #contacts ul li a:hover {
 	text-decoration: underline;
 }
-
-/* footer */
-
-/* footer {
-	background-color: var(--base-bk);
-}
-footer ul {
-	margin: 0;
-	list-style: none;
-	display: flex;
-	justify-content: center;
-}
-footer ul li a {
-	font-size: 1.6em;
-	text-decoration: none;
-	padding: 0.5em 1em;
-	display: block;
-	color: white;
-} */
 
 @media only screen and (min-width: 420px) {
 	/* navigation */
 	.buttonToggle {
 		display: none;
 	}
+
 	nav {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 	}
+
 	.toggle {
 		list-style: none;
 		padding: 0;
 		display: flex;
 	}
+
 	li {
 		width: fit-content;
 	}
@@ -381,12 +298,15 @@ footer ul li a {
 	#home {
 		margin: 3em auto;
 	}
+
 	#home h1 {
 		font-size: 65px;
 	}
+
 	#home img {
 		width: 200px;
 	}
+
 	/* gallery */
 	#container {
 		height: 600px;

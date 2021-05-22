@@ -74,7 +74,7 @@ for (let item of treatments) {
 	<td> ${item.price[2]} </td>
 	</tr>
    <tr> 
-	<td colspan="5"> ${item.description}</td>
+	<td class="description" colspan="5"> ${item.description}</td>
 	</tr>
 	`;
 }
