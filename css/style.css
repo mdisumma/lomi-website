@@ -252,6 +252,9 @@ tfoot {
 	color: white;
 	background-color: var(--base-bk);
 }
+.price {
+	background-color: rgba(0, 120, 50, 0.2);
+}
 thead tr:last-of-type {
 	color: var(--base-bk);
 	text-align: center;
@@ -259,9 +262,6 @@ thead tr:last-of-type {
 }
 thead tr:last-of-type th {
 	text-align: start;
-}
-tbody tr {
-	border-bottom: 1px dotted var(--base-bk);
 }
 
 /* social
