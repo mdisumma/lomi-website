@@ -64,6 +64,13 @@ li a:hover {
 	text-decoration: underline;
 }
 /* home */
+/* Begin Mailchimp Signup Form  */
+
+#mc_embed_signup {
+	background: #fff;
+	clear: left;
+	font: 14px Helvetica, Arial, sans-serif;
+}
 #home {
 	/* margin: 3em auto; */
 	width: 100%;
