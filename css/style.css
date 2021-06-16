@@ -1,7 +1,7 @@
 /* document global */
 :root {
 	--text: #006432;
-	--base-bk: rgba(0, 120, 50, 0.85);
+	--base-bk: hsla(150, 100%, 20%, 0.9);
 	--max-width: 960px;
 	--h1: 36px;
 	--h2: 24px;
@@ -64,10 +64,16 @@ li a:hover {
 	text-decoration: underline;
 }
 /* home */
+.promotion {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgba(0, 120, 50, 0.2);
+}
 /* Begin Mailchimp Signup Form  */
 
 #mc_embed_signup {
-	background: #fff;
 	clear: left;
 	font: 14px Helvetica, Arial, sans-serif;
 }
@@ -80,13 +86,15 @@ li a:hover {
 #mc_embed_signup_scroll label {
 	width: 100%;
 }
+.clear .button {
+	background-color: green;
+}
 #home {
 	/* margin: 3em auto; */
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: var(--padding);
 }
 #home h1 {
 	margin: 0;
@@ -97,11 +105,12 @@ li a:hover {
 }
 #home p {
 	margin: 1em;
-	max-width: 400px;
+	max-width: 600px;
 	font-size: 1.2em;
 	line-height: 2em;
 }
 #home img {
+	padding: 2em;
 	width: 140px;
 }
 #home p {
@@ -110,9 +119,9 @@ li a:hover {
 
 /* gallery */
 
-#gallery {
+/* #gallery {
 	padding-top: var(--padding);
-}
+} */
 
 #container {
 	width: 100%;
